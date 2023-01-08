@@ -1,0 +1,77 @@
+@media (max-width: 900px) {
+  .navbar--list {
+    position: absolute;
+    top: 195px;
+    left: 15%;
+    right: 15%;
+    width: 60%;
+    flex-direction: column;
+    background-color: rgb(59, 58, 57);
+    border: 4px solid var(--secondary);
+    border-top: 0px;
+    border-radius: 0 0 15px 15px;
+    align-items: flex-end;
+    padding: 25px 30px;
+    gap: 15px;
+    z-index: 2;
+    display: none;
+  }
+
+  .navbar--list a {
+    font-size: 18px;
+  }
+
+  .menu-label {
+    display: flex;
+    cursor: pointer;
+  }
+
+  #menu-toggle:checked+.navbar--list {
+    display: flex;
+  }
+
+  .beneficios__cafe {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 300px;
+  }
+
+  .contenier__description--card p {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 549px) {
+  .containerContacto {
+    margin-top: 550px;
+  }
+}
+
+@media (max-width: 900px) {
+  .description__nosotros--texto {
+    display: none;
+  }
+}
+
+@media (min-width: 900px) {
+  .container__nosotros--mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 829px) {
+  .containerContacto__text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .containerContacto h2 {
+    margin-top: 350px;
+  }
+}

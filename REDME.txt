@@ -1,0 +1,56 @@
+Ideas:
+   hacer un check out como el del menu hamburgueza para hacer aparecer o desaparecer los 
+elementos del carrito de compras! 
+
+
+
+
+
+ Deberá tener un navbar que navegue las diversas secciones de la web 
+ (Al hacer click en algún enlace del navbar, que se haga scroll hasta dicha sección). HECHO
+
+
+👉 Debe contener una sección de Hero o Portada, que este relacionada con la temática elegida HECHO
+(Pueden tomar la estructura del Hero realizado en el NUCBA NFT como ejemplo).HECHO
+
+
+👉 Debe tener una sección "About Us" o de "Beneficios" , 
+ que tenga información respecto a la temática que elegimos para la página.
+ HECHO
+
+
+👉 Debe contar con una sección de cards con imágenes. 
+  Estas cards pueden ser de producto o de información 
+  ( En caso de ser de producto, debe tener un título, un precio y un botón de compra) HECHO
+
+
+👉 Debe contener una sección de contacto 
+  (Puede tener un formulario de contacto y la información de contacto y localización de la página, 
+  así como también un iframe con un mapa).HECHO
+
+
+👉 Debe contar con un footer. HECHO
+
+👉 Deberá contar con una página de login y una de registro 
+  (externas a la landing pero vinculadas a la misma, y de las cuales se pueda volver a la landing). HECHO
+
+
+👉 Debe ser responsive, adaptable a todos los dispositivos y poseer menú hamburguesa
+  (que sea funcional usando el método que vimos en clase) para aquellas resoluciones en las que sea necesario.
+
+
+👉 Deberá estar deployado en Vercel. Ustedes van a entregar dicho enlace.
+
+
+
+Café Box
+Somos tostador e importador de café más antiguo de café de especialidad en Argentina, hace más de 25 años, también cafés de corte, como el italiano Luggiani y todos los productos e ingredientes relacionados a la industria del café. Atendemos más de 500 clientes restaurantes, hoteles y bares en todo el país.
+
+
+
+Contamos con una excelente logística de despacho para nuestros clientes que deseen disfrutar de la excelencia de nuestro café en sus casas, ya sea en CABA PROVINCIA DE BUENOS AIRES asi como en el interior del país.
+
+
+Cafés de especialidad
+Disfruta de toda nuestra variedad de cafés en empaques de 1 kilo y 500 gramos, con toda la calidad de Luggiani y Colombia
+

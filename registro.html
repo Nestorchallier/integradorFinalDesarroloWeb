@@ -1,0 +1,75 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./mediaQueri.css">
+    <title>CaféBox</title>
+    <link rel="shortcut icon" href="./assets/LOGO,%20FAVICON/coffeeshop.jpg" type="image/x-icon" />
+  </head>
+  <body>
+    <header id="header">
+      <!-- inicia navBar -->
+      <nav class="contein__navbar">
+          <img src="./assets/LOGO, FAVICON/coffeeshop1.png" alt="logo de la empresa" />
+        <label for="menu-toggle" class="menu-label">
+          <img src="./assets/imgMenuHamburgusa/menu.png" alt="es una imagen del menu hamburguesa" class="img-menu-hambur"/>
+        </label>
+        <input type="checkbox" id="menu-toggle" />
+          <ul class="navbar--list">
+            <li><a href="./#header">Inicio</a></li>
+            <li><a href="./#Productos">Productos</a></li>
+            <li><a href="./#nosotros">Nosotros</a></li>
+            <li><a href="./#contacto">Contacto</a></li>
+            <li><a href="./iniciarSecion.html">Iniciar Secion</a></li>
+            <li><a href="./registro.html">Registro</a></li>
+          </ul>
+      </nav>
+    </header>
+      <!-- termina naBvar -->
+    </header>
+    <form>
+        <div class="container__registro">
+            <h2>Crear cuenta</h2>
+            <div>
+              <input class="registrarme" name="name" id="name" type="text" placeholder="Nombre completo">
+            </div>
+            <div>
+              <input class="registrarme" name="correo" id="correo" type="text" placeholder="E-mail" >
+            </div>
+            <div>
+              <input class="registrarme" name="Usuario" id="usuario" type="text" placeholder="Usuario">
+            </div>
+            <div>
+              <input class="registrarme" name="password" id="contraseña" type="password" placeholder="Contraseña">
+            </div>
+
+            <div class="check__novedades">
+              <input type="checkbox" id="checkbox1">
+              <label for="checkbox1" class="label-registrarse">"Acepto me envien novedades y descuentos a mi E-mail"</label>
+            </div>
+
+            <a href="./index.html"><input type="submit" value="Registrarse" class="input__submit"></a>
+            <button class="btn-add btn "><a href="./index.html">Volver al Inicio</a></button>
+          </div>
+      </form>
+      
+    <!-- inicia footer -->
+        <footer>
+      <div class="container__footer">
+      <ul class="enlaces">
+        <li><a href="#">Términos de Uso</a></li>
+        <li><a href="#">Trabajá con Nosotros</a></li>
+        <li><a href="#">Soporte</a></li>
+      </ul>
+      <p>
+        Hecho Por <b>NESTOR CHALLIER</b>
+      </p>
+    </div>
+    </footer>
+  </body>
+</html>
